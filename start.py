@@ -1,11 +1,6 @@
 
-list1 =["item1", "item2", "item3", "item4", "item5"]
-list2 =[1000, 2000,]
-list1.remove("item5")
-list2.remove(2000)
-list2.append(3000)
-list1.insert (3, "item3,5")
-print(list1)
+dict1 = {"Voornaam" :"gerard",  "Achternaam" : "jansen", "Leeftijd": 16}
 
+print (dict1["Voornaam"])
 
 
