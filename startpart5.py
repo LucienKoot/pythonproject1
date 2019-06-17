@@ -3,5 +3,4 @@ leeftijd=16 	#16 is een integer
 
 print("Van harte gefeliciteerd " + naam + "! Vandaag ben je " + str (leeftijd) + " jaar geworden.")
 
-#bovenste is fout!!
-
+#bovenste  was fout nu str toegevoegd
