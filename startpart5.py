@@ -1,6 +1,10 @@
-naam="Jarno" 	#Jarno is een string
-leeftijd=16 	#16 is een integer
+import base64
+ 
+original_string = "Dit is heel erg gewone data"
+print (original_string)
+ 
+encode2byte = str.encode(original_string)
+type(bytes) # Zorgt ervoor dat de string omgezet wordt naar Byte Data (benodigd voor base64).
 
-print("Van harte gefeliciteerd " + naam + "! Vandaag ben je " + str (leeftijd) + " jaar geworden.")
-
-#bovenste  was fout nu str toegevoegd
+encoded_string = base64.b64encode(encode2byte)
+print (encoded_string)
