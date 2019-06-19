@@ -1,12 +1,16 @@
-def happyBirthday(persoon):
-    "Zing Happy Birthday voor alle opgegeven personen."
-    print("Happy Birthday to you!")
-    print("Happy Birthday to you!")
-    print("Happy Birthday, lieve " + persoon + ".")
-    print("Happy Birthday to you!")
-    return
- 
-happyBirthday('Harrie')
-happyBirthday('Andre')
-happyBirthday('Tineke')
 
+
+def erIs(person):
+    "Er is er één jarig hoera ,hoera voor alle personen"
+
+    print(" Er is er één jarig hoera, hoera! ")
+    print(" Dat kun je wel zien dat is " + person + ".")
+    print(" Het  is feest, het is feest!!")
+    print(" Het  is feest, het is feest!!")
+    print(" ")
+    return
+
+erIs(" Annie ")
+erIs(" Els ")
+erIs(" Eef ")
+erIs(" Piet ")
