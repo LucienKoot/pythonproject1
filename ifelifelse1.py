@@ -14,4 +14,4 @@ elif kindLengte <= eis:
    print("Minimum lengte is", eis ,"cm, helaas je mag niet mee, want jij bent:  ", kindLengte, "centimeter. "  )
 
 else :
-   print ("Jij mag mee, want je bent: ",kindLengte ," cm, dat is lang genoeg")
+   print ("Jij mag mee, want je bent: ",kindLengte - eis ," cm langer.")
