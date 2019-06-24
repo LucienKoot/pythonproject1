@@ -1,6 +1,6 @@
 # fietsenhandel
 
-leeftijd = 60
+leeftijd = 66
 
 if (leeftijd >= 1) and (leeftijd <=4):
     print ("Achter op bij pappa of mamma !")
@@ -17,6 +17,8 @@ elif  (leeftijd >=22) and (leeftijd<=59):
 elif (leeftijd == 21) or (leeftijd == 60):
     print ("Dat wordt reserveren voor een bierfiets")
 
+elif not (leeftijd<= 61):
+    print ("Dat wordt een rollator")
 
 
 
