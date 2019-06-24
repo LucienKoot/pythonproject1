@@ -13,3 +13,9 @@ class Hout:
         print ("Totaal aantal houtsoorten %d" % Hout.aantHout)
 
     def  
+        print ("naam: ", self.naam,  ", gewicht: ", self.gewicht,   ", lengte:  ", self.lengte,  ", breedte:  self.breedte)
+
+hout1 = Hout("Vurenhout", 10, 1000, 100)
+hout2 = Hout("Eikenhout", 15, 1000, 50)
+
+               
