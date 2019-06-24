@@ -4,3 +4,4 @@ bestand.close()
 
 print (bestand.mode)
 print (bestand.name)
+
