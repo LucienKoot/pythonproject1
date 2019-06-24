@@ -5,5 +5,5 @@ print (string.find("ik"))
 
 # hoofdletter zetten..
 
-string = "de appels vallen ver van de boom."
+string = "de appels vallen ver van de boom. toevallig denk ik dat"
 print (string.capitalize())
