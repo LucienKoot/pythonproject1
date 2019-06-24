@@ -1,1 +1,5 @@
 Dit is de eerste tekst in het bestand
+
+En dit is een tweede tekstbestand
+
+groeten Lucien
