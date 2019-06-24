@@ -8,3 +8,8 @@ class Hout:
         self.lengte = lengte
         self.breedte = breedte
         Hout.aantHout += 1
+
+    def displayCount(self):
+        print ("Totaal aantal houtsoorten %d" % Hout.aantHout)
+
+    def  
