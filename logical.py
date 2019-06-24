@@ -20,7 +20,5 @@ elif (leeftijd == 21) or (leeftijd == 60):
 elif not (leeftijd<= 61):
     print ("Dat wordt een rollator")
 
-
-
 else:
-    print ()
+    print ("Alles is verhuurd")
